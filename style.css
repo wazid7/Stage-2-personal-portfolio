@@ -1,10 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 body{
     box-sizing: border-box;
     margin: 0;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
+.hero-content-wrapper {
+    padding-top: 30px;
+}
 .flexible-container {
     display: flex;
-    padding: 0 20px;
+   padding-top: 30px;
+}
+.ornge{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+   
+}
+.hero-area{
+    background: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.hero-half {
+    width: 45%;
+}
+
+.heading-1 {
+    margin-bottom: -55px;
+}
+h1.heading-2 {
+    margin-bottom: 10px;
+}
+.hero-area h3 {
+    margin: 0;
+}
+.hero-half img {
+    width: 100%;
+    margin-left: 70px;
+}
+.hero-half.hero-text {
+    margin-left: 50px;
+}
+.Anchor-btn {
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding: 10px 29px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.pb-100{
+    padding-bottom: 80px;
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-area .hero-half img {
+    width: 85%;
+    margin-left: 57px;
+}
+.dream-area .hero-half.hero-text {
+    margin-left: 88px;
+    margin-top: 20px;
+}
+.dream-area .heading-1 {
+    margin-bottom: 0;
+}
+.dream-area p {
+    padding-right: 100px;
 }
