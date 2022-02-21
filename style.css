@@ -58,6 +58,7 @@ h1.heading-2 {
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
 }
 .dream-area .hero-half img {
     width: 85%;
@@ -72,4 +73,30 @@ h1.heading-2 {
 }
 .dream-area p {
     padding-right: 100px;
+}
+.expertise-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.expertise-area h2 {
+    font-size: 40px;
+}
+.box{
+    width: 40%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin-left:15px ;
+    border-left: 5px solid tomato;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 5px;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+    background-color: orange;
+    color: white;
+    padding: 10px 0;
 }
